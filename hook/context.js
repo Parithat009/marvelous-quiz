@@ -3,7 +3,7 @@ import React from 'react'
 const AppContext = React.createContext()
 
 export const Context = (props) => {
-  const [search, setSearch] = React.useState('thailand')
+  const [search, setSearch] = React.useState('')
   const hook = {
     search, setSearch
   }

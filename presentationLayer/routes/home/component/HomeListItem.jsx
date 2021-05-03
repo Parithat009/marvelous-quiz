@@ -7,7 +7,6 @@ const HomeListItem = ({ item }) => {
   const { snippet, id } = item
 
   const videoById = () => router.push(`/${id?.videoId}`)
-
   return (
     <div className='homeListItemContainer' onClick={videoById}>
       <img className='homeListItemImg' src={snippet?.thumbnails?.medium?.url} />
