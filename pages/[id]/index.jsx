@@ -1,8 +1,8 @@
 import React from 'react'
 import Head from 'next/head'
-import HomeViewPage from '../presentationLayer/routes/home/HomeViewPage'
+import VideoIdViewPage from '../../presentationLayer/routes/videoId/VideoIdViewPage'
 
-export default function Home() {
+const VideoId = () => {
   return (
     <React.Fragment>
       <Head>
@@ -10,7 +10,9 @@ export default function Home() {
         <meta name="description" content="Marvelous App" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <HomeViewPage />
+      <VideoIdViewPage />
     </React.Fragment>
   )
 }
+
+export default VideoId

@@ -1,0 +1,30 @@
+.layoutDefaultContainer {
+  min-height: calc(100vh - 64px);
+  width: 100%;
+  background-color:#E3DDDD;
+  display: flex;
+}
+
+.LayoutDefaultContent {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+@media only screen and (min-width: 768px) {
+  .LayoutDefaultContent {
+    max-width: 768px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .LayoutDefaultContent {
+    max-width: 1024px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .LayoutDefaultContent {
+    max-width: 1280px;
+  }
+}

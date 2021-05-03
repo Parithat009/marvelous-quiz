@@ -1,0 +1,145 @@
+
+
+.homeListContainer {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 2rem;
+}
+
+.homeListContent {
+  width: 100%;
+  padding-bottom: 1rem;
+}
+
+.homeListItemContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  padding: 1rem;
+  border-radius: 0.25rem;
+  background-color: white;
+  filter: brightness(95%);
+  cursor: pointer;
+}
+
+.homeListContainer :hover {
+  filter: brightness(110%);
+}
+
+.homeListItemImg {
+  /* height: 100%; */
+  width: 50%;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 0.25rem;
+}
+
+.homeListItemInfo {
+  width: 100%;
+  padding: 0 0.5rem;
+  word-break: break-all;
+}
+
+.homeListItemTitle{
+  margin: 0;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.homeListItemDescription {
+  margin: 0.25rem 0;
+  font-size: 0.675rem;
+  font-weight: 600;
+  color: gray;
+}
+
+@media only screen and (min-width: 1024px) {
+  .homeListContent {
+    width: 50%;
+    padding: 0 0.5rem 1rem 0.5rem;
+  }
+
+  .homeListItemDescription {
+    font-size: 0.875rem;
+  }
+
+  .homeListItemContainer {
+    flex-direction: column;
+  }
+
+  .homeListItemImg {
+    width: 100%;
+    margin-bottom: 1.5rem;
+  }
+
+  .homeListItemInfo {
+    padding: 0;
+  }
+  
+  .homeListItemTitle {
+    font-size: 1.25rem;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .homeListContent {
+    width: 33.33%;
+    padding: 0 0.5rem 2rem 0.5rem;
+  }
+}
+
+
+.textInputContainer {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+.textInputContent {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  max-width: 480px;
+  margin-top: 0.5rem;
+  border: 2px solid #E3DDDD;
+  border-radius: 0.25rem;
+  overflow: hidden;
+}
+
+.contentFocus {
+  border: 2px solid black;
+}
+
+
+.textInput{
+  padding: 0.75rem 1rem;
+  background-color: white;
+  color: gray;
+  outline: none;
+  border: none;
+  font-size: 0.875rem;
+  line-height: 1.25;
+  font-weight: 600;
+  width: 100%;
+}
+
+::placeholder {
+  color: gray;
+  opacity: 0.5;
+}
+
+.inputFocus{
+  color: black;
+}
+
+.textInputIcon {
+  background-color: white;
+  border: none;
+  color: gray;
+  padding: 0.75rem;
+  outline: none;
+  cursor: pointer;
+}
