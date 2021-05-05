@@ -20,7 +20,7 @@ const useStyleSheet = () => {
       display: 'flex',
       flexDirection: 'row',
       width: '100%',
-      backgroundColor: 'green'
+      backgroundColor: 'gray'
     }),
     Content: css({
       maxWidth: '320px',
