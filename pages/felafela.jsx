@@ -25,7 +25,7 @@ const useStyleSheet = () => {
     Content: css({
       maxWidth: '320px',
       width: '100%',
-      margin: '1rem auto',
+      margin: '0.5rem auto',
       textAlign: 'center',
       backgroundColor: 'greenyellow'
     })
