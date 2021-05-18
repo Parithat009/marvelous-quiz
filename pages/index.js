@@ -10,6 +10,7 @@ export default function Home() {
         <meta name="description" content="Marvelous App" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
+      <div>test</div>
       <HomeViewPage />
     </React.Fragment>
   )
